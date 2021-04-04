@@ -11,3 +11,5 @@
 	
 [difftool "ediff"]
 	  cmd = emacs -nw --eval \"(ediff-files \\\"$LOCAL\\\" \\\"$REMOTE\\\")\"
+[difftool]
+	prompt = false
