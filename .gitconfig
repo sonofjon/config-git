@@ -1,0 +1,13 @@
+[user]
+	name = Andreas Jonsson
+	email = ajdev8@gmail.com
+[core]
+	editor = emacs -nw
+[diff]
+#	tool = merge
+#	tool = meld
+#	tool = emerge
+	tool = ediff
+	
+[difftool "ediff"]
+	  cmd = emacs -nw --eval \"(ediff-files \\\"$LOCAL\\\" \\\"$REMOTE\\\")\"

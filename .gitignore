@@ -1,0 +1,4 @@
+# For more examples, see https://github.com/github/gitignore/blob/master/Global/Emacs.gitignore and www.gitignore.io
+*~
+\#*\#
+.\#*
