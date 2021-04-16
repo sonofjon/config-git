@@ -8,6 +8,9 @@
 [alias]
 	tree = log --oneline --decorate --all --graph
 
+[pager]
+	stash = false
+
 [diff]
 #	tool = merge
 #	tool = meld
