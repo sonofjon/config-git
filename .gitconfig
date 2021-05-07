@@ -25,7 +25,11 @@
 
 [merge]
 	tool = ediff
-	
+
+[merge "aggregate"]
+    name = aggregate both new sections
+    driver = git merge-file --union -L %P %A %O %B
+    
 [mergetool "ediff"]
     cmd = emacs -nw --eval \" \
 (progn \

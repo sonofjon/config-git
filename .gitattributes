@@ -1,0 +1,5 @@
+# Use merge driver union for log files (unreliable?)
+# .bash_history merge=union
+
+# Use custom merge driver aggregate for log files
+# .bash_history merge=aggregate
