@@ -4,6 +4,7 @@
 
 [core]
 	editor = emacs -nw
+	excludesFile = ~/.gitignore
 
 [alias]
 	tree = log --oneline --decorate --all --graph
