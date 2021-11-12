@@ -3,4 +3,8 @@
 \#*\#
 .\#*
 .DS_Store
+.env
+.log
+.venv
 .vscode
+__pycache__
