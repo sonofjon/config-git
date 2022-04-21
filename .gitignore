@@ -5,6 +5,9 @@
 .DS_Store
 .env
 .log
+node_modules
+package.json
+package-lock.json
 .venv
 .vscode
 __pycache__
