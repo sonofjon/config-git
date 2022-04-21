@@ -1,15 +1,21 @@
 # For more examples, see https://github.com/github/gitignore/blob/master/Global/Emacs.gitignore and www.gitignore.io
-*~
-\#*\#
-.\#*
+
+## Directories
 bin/
 build/
-.DS_Store
 .env/
 .log/
 node_modules/
-package.json
-package-lock.json
+__pycache__/
 .venv/
 .vscode/
-__pycache__/
+
+## Files
+.DS_Store
+package.json
+package-lock.json
+
+## Wildcards
+*~
+\#*\#
+.\#*
