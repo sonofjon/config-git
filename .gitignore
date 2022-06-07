@@ -1,4 +1,5 @@
-# For more examples, see https://github.com/github/gitignore/blob/master/Global/Emacs.gitignore and www.gitignore.io
+# For more examples, see www.gitignore.io and
+# https://github.com/github/gitignore/blob/master/Global/Emacs.gitignore
 
 ## Compilers
 bin/
