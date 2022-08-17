@@ -24,6 +24,11 @@ package-lock.json
 .venv/
 __pycache__/
 
+## TeX
+*.aux
+*.dvi
+*.out
+
 ## vscode
 .vscode/
 
