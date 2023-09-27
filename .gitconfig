@@ -1,6 +1,6 @@
 [user]
-	name = Andreas Jonsson
-	email = ajdev8@gmail.com
+	# name = Andreas Jonsson
+	# email = ajdev8@gmail.com
 
 [core]
 	editor = emacs -nw
@@ -42,3 +42,18 @@
       (ediff-merge-files-with-ancestor \\\"$LOCAL\\\" \\\"$REMOTE\\\" \
                                        \\\"$BASE\\\" nil \\\"$MERGED\\\") \
       (ediff-merge-files \\\"$LOCAL\\\" \\\"$REMOTE\\\" nil \\\"$MERGED\\\")))\"
+
+# Repository dependent config
+
+[includeIf "gitdir:~/dotfiles/"]
+    path = ~/dotfiles/.gitconfig
+
+[includeIf "gitdir:~/git/"]
+    path = ~/git/.gitconfig
+
+[includeIf "gitdir:~/projects/home/"]
+    path = ~/projects/work/.gitconfig
+
+[includeIf "gitdir:~/projects/work/"]
+    path = ~/projects/work/.gitconfig
+
