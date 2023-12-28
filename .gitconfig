@@ -52,7 +52,7 @@
     path = ~/git/.gitconfig
 
 [includeIf "gitdir:~/projects/home/"]
-    path = ~/projects/work/.gitconfig
+    path = ~/projects/home/.gitconfig
 
 [includeIf "gitdir:~/projects/work/"]
     path = ~/projects/work/.gitconfig
