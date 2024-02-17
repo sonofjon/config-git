@@ -2,7 +2,7 @@
 # https://github.com/github/gitignore/blob/master/Global/Emacs.gitignore
 
 ## Compilers
-bin/
+# bin/
 build/
 
 ## Emacs
