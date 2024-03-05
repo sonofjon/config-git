@@ -1,2 +1,2 @@
 # config-git
-Git config file
+Git config files
