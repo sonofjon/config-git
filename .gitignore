@@ -23,6 +23,7 @@ package-lock.json
 .env/
 .venv/
 __pycache__/
+.ruff.toml
 
 ## TeX
 *.aux
