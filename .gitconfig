@@ -43,6 +43,11 @@
                                        \\\"$BASE\\\" nil \\\"$MERGED\\\") \
       (ediff-merge-files \\\"$LOCAL\\\" \\\"$REMOTE\\\" nil \\\"$MERGED\\\")))\"
 
+# Delta config
+
+[includeIf]
+    path = ~/.gitconfig.delta
+
 # Repository dependent config
 
 [includeIf "gitdir:~/dotfiles/"]
