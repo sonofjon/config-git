@@ -45,8 +45,8 @@
 
 # Delta config
 
-[includeIf]
-    path = ~/.gitconfig.delta
+# [includeIf]
+#     path = ~/.gitconfig.delta
 
 # Repository dependent config
 
