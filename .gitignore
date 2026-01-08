@@ -1,6 +1,9 @@
 # For more examples, see www.gitignore.io and
 # https://github.com/github/gitignore/blob/master/Global/Emacs.gitignore
 
+# Agent Shell
+.agent-shell/
+
 # Aider
 .aider\.*
 .aider/
