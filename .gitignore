@@ -23,7 +23,7 @@ build/
 ## macOS
 .DS_Store
 
-## node
+## Node
 node_modules/
 package.json
 package-lock.json
@@ -41,7 +41,7 @@ ruff.toml
 *.dvi
 *.out
 
-## vscode
+## VSCode
 .vscode/
 
 ## Other
