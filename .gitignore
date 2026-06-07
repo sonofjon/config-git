@@ -8,6 +8,9 @@
 .aider\.*
 .aider/
 
+## Claude
+**/.claude/settings.local.json
+
 ## Compilers
 # bin/
 build/
